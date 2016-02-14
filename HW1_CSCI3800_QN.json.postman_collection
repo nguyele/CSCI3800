@@ -1,0 +1,50 @@
+{
+	"id": "6eb8b1ce-1e90-d2ca-a339-181299711e64",
+	"name": "HW1_CSCI3800_QN",
+	"description": "",
+	"order": [
+		"b5ef25cf-5c9b-dfce-5b35-60531ac6e862",
+		"436678e4-4550-5b3d-c14c-815d3056baef"
+	],
+	"folders": [],
+	"timestamp": 1455435219202,
+	"owner": "",
+	"remoteLink": "",
+	"public": false,
+	"requests": [
+		{
+			"id": "436678e4-4550-5b3d-c14c-815d3056baef",
+			"url": "http://www.webservicex.net/geoipservice.asmx",
+			"method": "GET",
+			"headers": "",
+			"data": [],
+			"dataMode": "params",
+			"tests": "tests[\"Body matches string\"] = responseBody.has(\"color\");\n",
+			"preRequestScript": "",
+			"currentHelper": "normal",
+			"pathVariables": {},
+			"version": 2,
+			"name": "http://www.webservicex.net/geoipservice.asmx",
+			"description": "",
+			"descriptionFormat": "html",
+			"collectionId": "6eb8b1ce-1e90-d2ca-a339-181299711e64"
+		},
+		{
+			"id": "b5ef25cf-5c9b-dfce-5b35-60531ac6e862",
+			"url": "https://www.googleapis.com/books/v1/volumes?q=turing",
+			"method": "GET",
+			"headers": "",
+			"data": [],
+			"dataMode": "params",
+			"tests": "tests[\"Body matches string\"] = responseBody.has(\"book\");",
+			"preRequestScript": "",
+			"currentHelper": "normal",
+			"pathVariables": {},
+			"version": 2,
+			"name": "https://www.googleapis.com/books/v1/volumes?q=turing",
+			"description": "",
+			"descriptionFormat": "html",
+			"collectionId": "6eb8b1ce-1e90-d2ca-a339-181299711e64"
+		}
+	]
+}
