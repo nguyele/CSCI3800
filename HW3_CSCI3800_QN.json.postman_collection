@@ -1,0 +1,252 @@
+{
+	"id": "94e06030-e2cc-d6dc-b8b2-084de066cd96",
+	"name": "HW3_CSCI3800_QN",
+	"description": "",
+	"order": [
+		"bd0f22fa-0756-feb7-b942-66c6706da845",
+		"63be291a-39b8-3371-ee44-f48b0bb7a01d",
+		"b22c6961-a965-611e-76b2-1aabc5d71828",
+		"d241b793-1aee-520b-24b5-1d8d94fd2aee",
+		"41f8a408-f2b6-03b3-b1ff-a214d36bdced",
+		"d14cc71b-101a-2886-fa64-d1d72fb571aa",
+		"dab6e816-3614-5013-ee84-a4d1a66c813c"
+	],
+	"folders": [],
+	"timestamp": 1459210953370,
+	"owner": 0,
+	"remoteLink": "",
+	"public": false,
+	"requests": [
+		{
+			"id": "41f8a408-f2b6-03b3-b1ff-a214d36bdced",
+			"headers": "",
+			"url": "http://quyennguyenmai-test.apigee.net/v1/github/nguyele",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "94e06030-e2cc-d6dc-b8b2-084de066cd96",
+			"data": [
+				{
+					"key": "client_id",
+					"value": "PKNaqLTHT7N1TLCyuifjLBrJ8IgCrkyt",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "client_secret",
+					"value": "NlltCGzPhqmax7he",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"name": "https://quyennguyenmai-test.apigee.net/oauth/client_credential/accesstoken?grant_type=client_credentials",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1459211975758,
+			"version": 2,
+			"responses": [],
+			"tests": "\n",
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "63be291a-39b8-3371-ee44-f48b0bb7a01d",
+			"headers": "",
+			"url": "https://quyennguyenmai-test.apigee.net/oauth/client_credential/accesstoken?grant_type=client_credentials",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "94e06030-e2cc-d6dc-b8b2-084de066cd96",
+			"data": [
+				{
+					"key": "client_id",
+					"value": "PKNaqLTHT7N1TLCyuifjLBrJ8IgCrkyt",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "client_secret",
+					"value": "NlltCGzPhqmax7he",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"name": "https://quyennguyenmai-test.apigee.net/oauth/client_credential/accesstoken?grant_type=client_credentials",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1459211000182,
+			"version": 2,
+			"responses": [],
+			"tests": "\n",
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "b22c6961-a965-611e-76b2-1aabc5d71828",
+			"headers": "",
+			"url": "https://quyennguyenmai-test.apigee.net/oauth/client_credential/accesstoken?grant_type=client_credentials",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "PUT",
+			"collectionId": "94e06030-e2cc-d6dc-b8b2-084de066cd96",
+			"data": [
+				{
+					"key": "client_id",
+					"value": "PKNaqLTHT7N1TLCyuifjLBrJ8IgCrkyt",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "client_secret",
+					"value": "NlltCGzPhqmax7he",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"name": "https://quyennguyenmai-test.apigee.net/oauth/client_credential/accesstoken?grant_type=client_credentials",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1459211013302,
+			"version": 2,
+			"responses": [],
+			"tests": "\n",
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "bd0f22fa-0756-feb7-b942-66c6706da845",
+			"headers": "",
+			"url": "https://quyennguyenmai-test.apigee.net/oauth/client_credential/accesstoken?grant_type=client_credentials",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "94e06030-e2cc-d6dc-b8b2-084de066cd96",
+			"data": [
+				{
+					"key": "client_id",
+					"value": "PKNaqLTHT7N1TLCyuifjLBrJ8IgCrkyt",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "client_secret",
+					"value": "NlltCGzPhqmax7he",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"name": "https://quyennguyenmai-test.apigee.net/oauth/client_credential/accesstoken?grant_type=client_credentials",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1459210976205,
+			"version": 2,
+			"responses": [],
+			"tests": "\n",
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "d14cc71b-101a-2886-fa64-d1d72fb571aa",
+			"headers": "",
+			"url": "http://quyennguyenmai-test.apigee.net/v1/github/nguyele",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "DELETE",
+			"collectionId": "94e06030-e2cc-d6dc-b8b2-084de066cd96",
+			"data": [
+				{
+					"key": "client_id",
+					"value": "PKNaqLTHT7N1TLCyuifjLBrJ8IgCrkyt",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "client_secret",
+					"value": "NlltCGzPhqmax7he",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"name": "https://quyennguyenmai-test.apigee.net/oauth/client_credential/accesstoken?grant_type=client_credentials",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1459211990770,
+			"version": 2,
+			"responses": [],
+			"tests": "\n",
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "d241b793-1aee-520b-24b5-1d8d94fd2aee",
+			"headers": "",
+			"url": "http://quyennguyenmai-test.apigee.net/v1/github/nguyele",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "94e06030-e2cc-d6dc-b8b2-084de066cd96",
+			"data": [
+				{
+					"key": "client_id",
+					"value": "PKNaqLTHT7N1TLCyuifjLBrJ8IgCrkyt",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "client_secret",
+					"value": "NlltCGzPhqmax7he",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"name": "https://quyennguyenmai-test.apigee.net/oauth/client_credential/accesstoken?grant_type=client_credentials",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1459211963774,
+			"version": 2,
+			"responses": [],
+			"tests": "\n",
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "dab6e816-3614-5013-ee84-a4d1a66c813c",
+			"headers": "",
+			"url": "https://quyennguyenmai-test.apigee.net/oauth/client_credential/accesstoken?grant_type=client_credentials",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "94e06030-e2cc-d6dc-b8b2-084de066cd96",
+			"data": [
+				{
+					"key": "client_id",
+					"value": "dhval",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "client_secret",
+					"value": "ajdhvska",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"name": "https://quyennguyenmai-test.apigee.net/oauth/client_credential/accesstoken?grant_type=client_credentials",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1459218411793,
+			"version": 2,
+			"responses": [],
+			"tests": "\n",
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		}
+	]
+}
